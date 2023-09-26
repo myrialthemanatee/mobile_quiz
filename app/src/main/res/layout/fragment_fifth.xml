@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FifthFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/kysymys4"
+        android:layout_width="337dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="43dp"
+        android:text="Jee, on rankkaa olla tonttumies.."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_fifth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="214dp"
+        android:text="seuraava"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/vastaukset4"
+        android:layout_width="329dp"
+        android:layout_height="241dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="89dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_fifth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kysymys4">
+
+        <RadioButton
+            android:id="@+id/vast4_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jee, it's hard to be a tonttu." />
+
+        <RadioButton
+            android:id="@+id/vast4_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jee, it's good to be a tonttu." />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
